@@ -10,9 +10,10 @@ const server = require('http').createServer(app);
 
 //Socket.IO
 
+
 const io = new Server(server, {
     cors:{
-        origin: "https://react-chat-nd2tzops1-sohail-313.vercel.app",
+        origin: "https://react-chat-rouge-five.vercel.app/",
         methods: ["GET", "POST"],
     },
 })
